@@ -62,3 +62,18 @@ sudo apt-get install -y nodejs
 
 ------
 
+### Install Git on Linux
+
+latest stable version
+
+```shell
+# apt-get install git
+```
+
+this PPA provides the latest stable upstream Git version
+
+```shell
+# add-apt-repository ppa:git-core/ppa
+# apt update; apt install git
+```
+
